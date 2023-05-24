@@ -44,27 +44,48 @@ div#menu li {
     color: #000000;
 }
 
-li a{
-    text-decoration: none;
+a{
     color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
 }
 
-li a:hover{
-    cursor: pointer;
-    font-weight: bolder;
-    
-}
 /*----------------HEADER II-------------------------------------*/
 
-div#buttomCta{
+a#buttomCta{
     background-color: #1F7CFF;
     border-radius: 50px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600px;
+    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     color: white;
+    padding: 10px 25px 10px 25px;
+}
 
+#headerCta h1{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 82px;
+    color: #000000;
+}
+
+div#headerCta p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    width: 400px;
+    color: #575455;
+}
+
+a#buttomCta:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.7s;
 }
