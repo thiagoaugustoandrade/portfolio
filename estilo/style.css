@@ -89,3 +89,9 @@ a#buttomCta:hover{
     transform: translateY(-5px);
     transition-duration: 0.7s;
 }
+
+#headerImg{
+    background-image: url('imagens/foto-perfil.jpg.jpeg');
+    width: 500px;
+    height: 500px;
+}
