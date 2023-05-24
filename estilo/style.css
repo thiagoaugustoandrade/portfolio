@@ -70,8 +70,8 @@ a#buttomCta{
 #headerCta h1{
     font-family: 'Poppins';
     font-weight: bold;
-    font-size: 55px;
-    line-height: 82px;
+    font-size: 52px;
+    width: 600px;
     color: #000000;
 }
 
@@ -91,7 +91,13 @@ a#buttomCta:hover{
 }
 
 #headerImg{
-    background-image: url('imagens/foto-perfil.jpg.jpeg');
-    width: 500px;
-    height: 500px;
+    background-image: url('imagens/348256237_629372408778058_7316646971849584332_n.jpg');
+    margin-left: 42px;
+    width: 100%;
+    
+}
+
+#headerImg img{
+    border-radius: 50%;
+    width: 100%;
 }
