@@ -1,0 +1,70 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/*-----------HEADER--------------------*/
+div.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+div#header{
+    font-family: 'Poppins', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration: underline;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+div#menu{
+    text-align: right;
+    margin-top: 49px;
+}
+
+div#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+div#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+li a:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
+/*----------------HEADER II-------------------------------------*/
+
+div#buttomCta{
+    background-color: #1F7CFF;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+
+}
